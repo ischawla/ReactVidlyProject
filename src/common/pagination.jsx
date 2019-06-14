@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import _ from "lodash";
 import PropTypes from "prop-types";
-
 class Page extends Component {
   render() {
     const { itemsCount, pageSize, currentPage, onPageChange } = this.props;
